@@ -70,16 +70,18 @@ nav ul li a {
 .hero h1 {
     font-size: 3rem;
     margin-bottom: 1rem;
+    color: #4b0082; /* Dark Purple */
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
 }
 
 .hero p {
     font-size: 1.5rem;
+    color: #32cd32; /* Lime Green */
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
 }
 
 section {
-    padding: 3rem 2rem; /* Reduce padding */
+    padding: 4rem 2rem;
     background-color: #fff;
     margin: 2rem 0;
 }
@@ -150,5 +152,6 @@ footer {
         padding: 2rem 1rem;
     }
 }
+
 
 
