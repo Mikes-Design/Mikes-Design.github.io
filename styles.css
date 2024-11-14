@@ -9,7 +9,7 @@ body {
 }
 
 header {
-    background-color: #333;
+    background-color: #4b0082; /* Dark Purple */
     color: white;
     padding: 1rem 0;
     text-align: center;
@@ -30,7 +30,8 @@ nav ul li {
 nav ul li a {
     color: white;
     text-decoration: none;
-    font-weight: 700;
+    font-weight: 700; /* Make the font bolder */
+    font-size: 1.1rem; /* Increase the font size */
 }
 
 .hero {
@@ -72,6 +73,8 @@ section {
 
 .business:hover {
     transform: translateY(-5px);
+    background-color: #8a2be2; /* Electric Purple */
+    color: white;
 }
 
 form label {
@@ -87,8 +90,12 @@ form input, form textarea, form button {
     border-radius: 4px;
 }
 
+form input, form textarea {
+    border: 2px solid #32cd32; /* Lime Green */
+}
+
 form button {
-    background-color: #333;
+    background-color: #4b0082; /* Dark Purple */
     color: white;
     border: none;
     cursor: pointer;
@@ -96,11 +103,11 @@ form button {
 }
 
 form button:hover {
-    background-color: #555;
+    background-color: #8a2be2; /* Electric Purple */
 }
 
 footer {
-    background-color: #333;
+    background-color: #4b0082; /* Dark Purple */
     color: white;
     text-align: center;
     padding: 1rem 0;
@@ -118,3 +125,4 @@ footer {
         padding: 2rem 1rem;
     }
 }
+
