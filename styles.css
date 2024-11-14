@@ -10,8 +10,8 @@ body {
 
 header {
     background-color: #4b0082; /* Dark Purple */
-    color: white;
-    padding: 1rem 0;
+    color: #fff; /* White text for higher contrast */
+    padding: 0.5rem 0; /* Reduce padding */
     text-align: center;
 }
 
@@ -28,15 +28,15 @@ nav ul li {
 }
 
 nav ul li a {
-    color: white;
+    color: #fff; /* White text for higher contrast */
     text-decoration: none;
-    font-weight: 700; /* Make the font bolder */
-    font-size: 1.1rem; /* Increase the font size */
+    font-weight: 900; /* Bolder font weight */
+    font-size: 1rem; /* Adjust font size */
 }
 
 .hero {
     background: url('hero.jpg') no-repeat center center/cover;
-    height: 100vh;
+    height: 80vh; /* Reduce height */
     color: white;
     display: flex;
     justify-content: center;
@@ -45,16 +45,16 @@ nav ul li a {
 }
 
 .hero h1 {
-    font-size: 3rem;
+    font-size: 2.5rem; /* Adjust font size */
     margin-bottom: 1rem;
 }
 
 .hero p {
-    font-size: 1.5rem;
+    font-size: 1.2rem; /* Adjust font size */
 }
 
 section {
-    padding: 4rem 2rem;
+    padding: 3rem 2rem; /* Reduce padding */
     background-color: #fff;
     margin: 2rem 0;
 }
@@ -125,4 +125,5 @@ footer {
         padding: 2rem 1rem;
     }
 }
+
 
