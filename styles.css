@@ -86,6 +86,14 @@ section {
     margin: 2rem 0;
 }
 
+section h2 {
+    color: #4b0082; /* Dark Purple */
+}
+
+section p, section ul {
+    color: #32cd32; /* Lime Green */
+}
+
 .about, .businesses, .contact {
     margin-top: 2rem;
 }
@@ -152,6 +160,4 @@ footer {
         padding: 2rem 1rem;
     }
 }
-
-
 
