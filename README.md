@@ -1,2 +1,2 @@
 # Mikes-Design.github.io
-Mikes-Design Resume for Code:You assignment 
+My resume for Code:You assignment 
